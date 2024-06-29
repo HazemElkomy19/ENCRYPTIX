@@ -1,0 +1,161 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(211,211,211);
+  padding-bottom: 1000px;
+}
+ p{
+  display: inline;
+} 
+.navigation{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ flex-direction: row;
+ 
+  
+}
+.text-container{
+  margin-left: 165px;
+  
+  position: relative;
+}
+.infinity-container p{
+  font-weight: 600;
+  font-size: 20px;
+}
+.parag{
+  margin-right: 20px;
+  color: rgb(97, 97, 97);
+  font-weight: 550;
+  font-size: 14px;
+}
+.parag:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.button-container{
+  margin-left: 300px;
+}
+.logo-image{
+  height: 60px;
+ 
+  
+}
+.logo-infinity-container{
+  position: relative;
+  
+}
+.image-container {
+  margin: 0px;
+  margin-top: 15px;
+ 
+}
+.infinity-container {
+  position: absolute;
+  bottom: 27px;
+  left: 50px;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-template-rows: 150px 90px 90px 30px 90px;
+  margin-right: 100px;
+  
+}
+.information{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.heading{
+  font-size: 60px;
+  margin-right: 100px;
+}
+.downloadtrial-button-container{
+  margin-left: 100px;
+  position: relative;
+}
+.os-image{
+  height: 70px;
+  width: 120px;
+  background-color: transparent;
+}
+.compatable{
+color:  rgb(141, 138, 138);
+font-weight: 700;
+font-size: 14px;
+}
+ .tech-image{
+  display: flex;
+justify-content: center;
+align-items: center;
+  
+  height: 500px;
+  margin-top: 600px;
+  width: 650px;
+} 
+.login{
+  width: 70px;
+  height: 37px;
+  margin-right:17px ;
+  color: rgb(57, 56, 56);
+  border:1px solid rgb(57, 56, 56);
+  border-radius: 2px;
+  font-weight: 600;
+}
+.login:hover{
+  cursor: pointer;
+  color: white;
+  border:none;
+  background-color: rgb(3, 83, 255);
+}
+.download{
+  color: white;
+  border:none;
+  background-color: rgb(3, 83, 255);
+  height: 37px;
+  font-weight: 600;
+  padding: 10px 20px 10px 20px;
+  border-radius:2px ;
+}
+.download:hover{
+  cursor: pointer;
+  color: rgb(57, 56, 56);
+  border:1px solid rgb(57, 56, 56);
+  
+  background-color: white;
+}
+.download-trial{
+  color: white;
+  border:none;
+  background-color: rgb(3, 83, 255);
+  height: 45px;
+ font-weight: 600;
+  padding: 15px 25px 15px 25px;
+  border-radius:2px ;
+}
+.download-trial:hover{
+  cursor: pointer;
+  color: rgb(57, 56, 56);
+  border:1px solid rgb(57, 56, 56);
+  
+  background-color: white;
+}
+.e-image{
+  height: 150px;
+}
+.rhom-e-container{
+  position: relative;
+}
+.rhom-container{
+  position: absolute;
+  bottom: 450px;
+  
+}
+.e-container{
+  position: absolute;
+  right: 10px;
+  top: 400px;
+}
